@@ -10,13 +10,13 @@ Aurora-gradient statusline for [Claude Code](https://claude.com/claude-code) wit
 ## Install
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/liberty-app-xiaolong-fan/claude-statusline/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/fanxiaolong123/claude-statusline/main/install.sh | bash
 ```
 
 Or from a local clone:
 
 ```bash
-git clone https://github.com/liberty-app-xiaolong-fan/claude-statusline.git
+git clone https://github.com/fanxiaolong123/claude-statusline.git
 cd claude-statusline
 ./install.sh
 ```
@@ -59,7 +59,7 @@ Removes `~/.claude/statusline.sh` and unsets `.statusLine` in `settings.json`. B
 The installer respects:
 
 - `CLAUDE_DIR` — defaults to `~/.claude`.
-- `CLAUDE_STATUSLINE_REPO` — defaults to `liberty-app-xiaolong-fan/claude-statusline`.
+- `CLAUDE_STATUSLINE_REPO` — defaults to `fanxiaolong123/claude-statusline`.
 - `CLAUDE_STATUSLINE_BRANCH` — defaults to `main`.
 
 If you fork the repo, point the curl install at your fork:

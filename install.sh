@@ -3,13 +3,13 @@
 # Usage:
 #   curl -fsSL https://raw.githubusercontent.com/<owner>/<repo>/main/install.sh | bash
 # Env overrides:
-#   CLAUDE_STATUSLINE_REPO   default: liberty-app-xiaolong-fan/claude-statusline
+#   CLAUDE_STATUSLINE_REPO   default: fanxiaolong123/claude-statusline
 #   CLAUDE_STATUSLINE_BRANCH default: main
 #   CLAUDE_DIR               default: $HOME/.claude
 
 set -e
 
-REPO="${CLAUDE_STATUSLINE_REPO:-liberty-app-xiaolong-fan/claude-statusline}"
+REPO="${CLAUDE_STATUSLINE_REPO:-fanxiaolong123/claude-statusline}"
 BRANCH="${CLAUDE_STATUSLINE_BRANCH:-main}"
 CLAUDE_DIR="${CLAUDE_DIR:-$HOME/.claude}"
 SCRIPT_DEST="${CLAUDE_DIR}/statusline.sh"
