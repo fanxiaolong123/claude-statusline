@@ -114,7 +114,7 @@ PY
 
 effort_seg=""
 if [ -n "$effort" ]; then
-  effort_seg=" | $(render_effort "$effort")"
+  effort_seg="$(render_effort "$effort") | "
 fi
 
-printf '%s%s\n' "$gradient" "$effort_seg"
+printf '%s%s\n' "$effort_seg" "$gradient"
