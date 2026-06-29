@@ -77,7 +77,7 @@ render_effort() {
 }
 
 parts=()
-[ -n "$model" ]  && parts+=("Model:${model}")
+[ -n "$model" ]  && parts+=("${model}")
 [ -n "$cwd" ]    && parts+=("CWD:${cwd}")
 [ -n "$branch" ] && parts+=("Branch: ${branch}")
 [ -n "$ctx" ]    && parts+=("Context:${ctx}%")
